@@ -1,0 +1,33 @@
+@import 'styles/variaveis';
+
+.header {
+    padding: 2.4rem 0 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100vw;
+
+    img {
+        padding-left: 2.4rem;
+    }
+
+    .line {
+        width: 430px;
+        background: $cinza;
+        height: 1px;
+        position: absolute;
+        left: 10%;
+        opacity: 0.3;
+    }
+
+    nav {
+        display: flex;
+        height: 96px;
+        backdrop-filter: blur(81.55px);
+        padding-inline: 6rem 2.4rem;
+        width: 830px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

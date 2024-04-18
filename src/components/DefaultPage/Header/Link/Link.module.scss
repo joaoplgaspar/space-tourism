@@ -1,0 +1,27 @@
+@import 'styles/variaveis';
+
+.link {
+    padding: 4rem 0;
+    display: flex;
+    gap: 1.2rem;
+    text-decoration: none;
+
+    span {
+        font-family: $font-barlow;
+        font-weight: bold;
+        font-size: 1.6rem;
+        color: $branco;
+    }
+
+    p {
+        font-family: $font-barlow;
+        font-size: 1.6rem;
+        color: $branco;
+        text-transform: uppercase;
+        letter-spacing: 2.7px;
+    }
+}
+
+.ativo {
+    border-bottom: 2px solid $branco;
+}
