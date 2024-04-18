@@ -12,7 +12,7 @@ export default function Home() {
     >
       <section>
         <div className={styles.texts}>
-          <Title>So, you want to travel to</Title>
+          <Title cinza>So, you want to travel to</Title>
           <TextHigh>SPACE</TextHigh>
           <Paragrafo>
             Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!

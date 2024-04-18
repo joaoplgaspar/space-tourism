@@ -1,0 +1,99 @@
+@import 'styles/variaveis';
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center; 
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+
+    img {
+        width: 445px;
+        height: 445px;
+        margin-top: 16rem;
+    }
+
+    &__texts {
+        display: flex;
+        flex-direction: column;
+        width: 444px;
+        margin-top: 14rem;
+
+        h3 {
+            font-size: 10rem;
+            margin-bottom: 1rem;
+        }
+        
+        p {
+            height: 128px;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav {
+            display: flex;
+            gap: 2.2rem;
+            margin-bottom: 4rem;
+
+            &__item {
+                font-family: $font-barlow;
+                font-size: 1.6rem;
+                cursor: pointer;
+                font-weight: 300;
+                color: $branco;
+                letter-spacing: 2.7px;
+                text-transform: uppercase;
+                list-style-type: none;
+                padding-bottom: 1rem;
+
+                &:hover {
+                    border-bottom: 2px solid rgba(255, 255, 255, 0.482);
+                }
+            }
+
+            &__item_ativo {
+                border-bottom: 2px solid $branco;
+                font-weight: 400;
+            }
+        }
+
+        .line {
+            width: 100%;
+            height: 1px;
+            background: $cinza;
+            opacity: 0.3;
+            margin-block: 4rem 3rem;
+        }
+
+        .infoContainer {
+            display: flex;
+            gap: 4rem;
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                color: $branco;
+                gap: 1rem;
+
+                span {
+                    font-family: $font-barlow;
+                    font-size: 1.4rem;
+                    font-weight: 300;
+                    color: $branco;
+                    letter-spacing: 2.36px;
+                    text-transform: uppercase;
+                }
+
+                p {
+                    font-family: $font-bellafair;
+                    font-size: 2.8rem;
+                    text-transform: uppercase;
+                    font-weight: 400;
+                    height: fit-content;
+                }
+            }
+        }
+    }
+}
