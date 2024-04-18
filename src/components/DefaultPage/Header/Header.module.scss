@@ -9,16 +9,17 @@
     width: 100vw;
 
     img {
-        padding-left: 2.4rem;
+        padding-left: 4rem;
     }
 
     .line {
-        width: 430px;
+        width: 33%;
         background: $cinza;
         height: 1px;
         position: absolute;
         left: 10%;
         opacity: 0.3;
+        z-index: 2;
     }
 
     nav {
@@ -26,8 +27,9 @@
         height: 96px;
         backdrop-filter: blur(81.55px);
         padding-inline: 6rem 2.4rem;
-        width: 830px;
+        width: 60%;
         display: flex;
         justify-content: space-evenly;
+        background: rgba($color: $cinza, $alpha: 0.04);
     }
 }

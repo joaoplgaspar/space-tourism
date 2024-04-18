@@ -20,6 +20,10 @@
         text-transform: uppercase;
         letter-spacing: 2.7px;
     }
+
+    &:hover {
+        border-bottom: 2px solid $branco;
+    }
 }
 
 .ativo {
