@@ -15,7 +15,7 @@ export default function SectionCrew({crew: {cargo, nome, description, id, image}
         <div className={styles.container__texts}>
             <span>{cargo}</span>
             <TextHigh>{nome}</TextHigh>
-            <Paragrafo>{description}</Paragrafo>
+            <Paragrafo cinza>{description}</Paragrafo>
         </div>
         <img src={`assets/crew/${image}`} alt={`Foto do ${cargo} ${nome}`} />
     </section>

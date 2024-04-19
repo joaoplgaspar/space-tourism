@@ -6,7 +6,7 @@ interface Props {
     title: string,
     numberTitle: string
     imageBackground: string
-    children: JSX.Element
+    children: JSX.Element | JSX.Element[]
 }
 
 export default function MainContent({title, numberTitle, imageBackground, children}: Props) {

@@ -13,3 +13,10 @@ export interface ICrew {
     image: string,
     id: number
 }
+
+export interface ITechnology {
+    titulo: string
+    id: number
+    descricao: string
+    image: string
+}

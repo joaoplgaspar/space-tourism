@@ -1,0 +1,45 @@
+@import 'styles/variaveis';
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    align-items: center;
+    
+    .nav {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+        &__item {
+            width: 80px;
+            height: 80px;
+            border: 1px solid $branco;
+            color: $branco;
+            font-family: $font-bellafair;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3.2rem;
+            list-style-type: none;
+        }
+
+        &__item__ativo {
+            background: $branco;
+            color: $escuro;
+        }
+    }
+
+    .texts {
+        span {
+            color: $cinza;
+            font-size: 1.6rem;
+            letter-spacing: 2.7px;
+            font-family: $font-barlow   ;
+        }
+
+        h3 {
+            font-size: 5.6rem;
+        }
+    }
+}
