@@ -13,7 +13,7 @@ Site do desafio do Front-End Mentor, para mostrar planetas, ferramentas e pessoa
 <hr>
 
 <div align=center>
-   ![image](https://github.com/joaoplgaspar/space-tourism/assets/130015259/2b540cd7-51e7-46f0-849c-fad3d400d1b9)
+   <img src="https://github.com/joaoplgaspar/space-tourism/assets/130015259/2b540cd7-51e7-46f0-849c-fad3d400d1b9">
 </div>
 
 <hr>
