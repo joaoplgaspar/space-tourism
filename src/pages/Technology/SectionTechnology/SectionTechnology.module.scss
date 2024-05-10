@@ -2,18 +2,23 @@
 
 .container {
     display: grid;
-    grid-template-columns: 20% 50% 30%;
+    grid-template-columns: 20% 40% 40%;
     align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 1;
     
     .nav {
         display: flex;
         flex-direction: column;
         gap: 3rem;
+        justify-self: right;
+        margin-right: 7rem;
 
         &__item {
             width: 80px;
             height: 80px;
-            border: 1px solid $branco;
+            border: 1px solid rgba(255, 255, 255, 0.365);
             color: $branco;
             font-family: $font-bellafair;
             border-radius: 50%;
@@ -22,11 +27,17 @@
             align-items: center;
             font-size: 3.2rem;
             list-style-type: none;
+            cursor: pointer;
+
+            &:hover {
+                border: 1px solid $branco;
+            }
         }
 
         &__item__ativo {
             background: $branco;
             color: $escuro;
+            cursor: default;
         }
     }
 
@@ -35,11 +46,28 @@
             color: $cinza;
             font-size: 1.6rem;
             letter-spacing: 2.7px;
-            font-family: $font-barlow   ;
+            font-family: $font-barlow;
+            text-transform: uppercase;
         }
 
         h3 {
             font-size: 5.6rem;
+            margin-block: 1rem;
         }
+
+        p {
+            padding-right: 13rem;
+            height: 192px;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    img {
+        max-width: 500px;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        margin-top: 8rem;
     }
 }

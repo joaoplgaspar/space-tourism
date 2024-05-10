@@ -11,3 +11,17 @@
 .cinza {
     color: $cinza;
 }
+
+@media only screen and (max-width: 768px) {
+    .paragrafo {
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .paragrafo {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+}

@@ -72,3 +72,83 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .container {
+        min-height: 100vh;
+
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10rem;
+
+            .texts {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+                h3 {
+                    margin-bottom: 1rem;
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+
+            .exploreBtn {
+                margin: 0;
+                width: 242px;
+                height: 242px;
+                z-index: 1;
+                
+                &::before {
+                    width: 242px;
+                    height: 242px;
+                }
+            }
+
+            .exploreBtn:hover {
+                &::before {
+                    transform: scale(1.3);
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container {
+        section {
+            gap: 8rem;
+            padding-top: 12rem;
+
+            .texts {
+                padding-inline: 10%;
+            }
+
+            .exploreBtn {
+                width: 150px;
+                height: 150px;
+                z-index: 1;
+
+                p {
+                    font-size: 2rem;
+                    letter-spacing: 1.25px;
+                }
+
+                &::before {
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+
+            .exploreBtn:hover {
+                &::before {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
