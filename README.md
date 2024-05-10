@@ -23,7 +23,9 @@ Site do desafio do Front-End Mentor, para mostrar planetas, ferramentas e pessoa
 
 - `Funcionalidade 1`: Ver informações do planeta, astronauta e objetos utilizados em viagens espaciais.
 
-  [screen-capture.webm](https://github.com/joaoplgaspar/space-tourism/assets/130015259/b797cb9d-0d00-4f0b-914f-6677b2c7c05f)
+  [Video Explicativo do site inteiro](https://github.com/joaoplgaspar/space-tourism/assets/130015259/7b00ca23-3f4f-4fbf-8c51-363aeeedf808)
+
+  [Video de paginas resposivas](https://github.com/joaoplgaspar/space-tourism/assets/130015259/5caa9bad-e48f-422e-a15f-4f5161657851)
 
 
 ## ✔️ Técnicas e tecnologias utilizadas
