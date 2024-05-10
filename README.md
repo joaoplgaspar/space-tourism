@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+<h1> Space Tourism - Frontend Mentor Desafio </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Static Badge](https://img.shields.io/badge/Status-_Finalizado-green?style=for-the-badge)
 
-## Available Scripts
+Site do desafio do Front-End Mentor, para mostrar planetas, ferramentas e pessoas importantes relacionadas ao espaço.
 
-In the project directory, you can run:
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Space Tourism**
+| :label: Tecnologias | react, html5, sass, typescript
+| :rocket: URL         | https://space-tourism-jpg.vercel.app
 
-### `npm start`
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<div align=center>
+   ![image](https://github.com/joaoplgaspar/space-tourism/assets/130015259/2b540cd7-51e7-46f0-849c-fad3d400d1b9)
+</div>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<hr>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# :hammer: Funcionalidades do projeto
 
-### `npm run build`
+- `Funcionalidade 1`: Ver informações do planeta, astronauta e objetos utilizados em viagens espaciais.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  [screen-capture.webm](https://github.com/joaoplgaspar/space-tourism/assets/130015259/b797cb9d-0d00-4f0b-914f-6677b2c7c05f)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ✔️ Técnicas e tecnologias utilizadas
+- ``ReactJS, Html5, Sass``
+- ``Manipulação do estado do objeto com useState``
+- ``Single Page Application (SPA) com React Router Dom``
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# 🛠️ Abrir e rodar o projeto
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Utilize `npm install` dentro da pasta do projeto para baixar suas pendências**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+**A seguir `npm start` para iniciar o projeto**
